@@ -5,7 +5,7 @@ html, body {
     height: 100vh;
     background: #000;
     overflow: hidden;
-    cursor: grabbing;
+    cursor: pointer;
 }
 
 .header {
