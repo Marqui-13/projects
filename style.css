@@ -39,7 +39,6 @@ html, body {
     filter: grayscale(1);
     opacity: 0.4;
     transition: 1s;
-    z-index: 100;
 }
 
 .block:hover {
