@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/panzoom@8.7.3/dist/panzoom.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+        Explore projects by dragging canvas
+    </div>
+    <div class="container">
+        <div class="row">
+            <a href="https://thrite.netlify.app/"><div class="block block-1"></div></a>
+            <div class="block block-2"></div>
+            <a href="https://coinlist.on.fleek.co/"><div class="block block-3"></div></a>
+            <a href="https://pta.on.fleek.co/"><div class="block block-4"></div></a>
+        </div>
+        <div class="row">
+            <a href="https://dpta.on.fleek.co/"><div class="block block-5"></div></a>
+            <a href="https://threejs-landing-page.on.fleek.co/"><div class="block block-6"></div></a>
+            <a href="https://generativeart.on.fleek.co/"><div class="block block-7"></div></a>
+            <a href="https://react-weather-app.on.fleek.co/"><div class="block block-8"></div></a>
+        </div> 
+    </div>
+    
+    <script>
+        var element = document.querySelector(".container");
+        panzoom(element, {
+            minZoom: 1,
+            maxZoom: 1
+        });
+    </script>
+  </body>
+</html>
